@@ -1,0 +1,138 @@
+.header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1)),
+    url("https://preview.redd.it/zc3nnfklwz941.jpg?auto=webp&s=c0bcbce019bc5f774529821335c2b962330c3db5");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70vh;
+  color: #fff;
+  font-size: 1.3rem;
+  background-position: center;
+}
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  padding: 1rem;
+}
+.header__logo {
+  letter-spacing: 4px;
+}
+.header__nav-right ul {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.header__nav-right ul li:not(:last-child) {
+  margin-right: 3.4rem;
+}
+.header__search {
+  display: flex;
+  align-items: center;
+}
+.header svg {
+  margin-top: 0.4rem;
+}
+.header__search svg {
+  margin-right: 0.3rem;
+}
+
+.header__content {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.45rem;
+  letter-spacing: 0.1px;
+  margin-top: 7vh;
+}
+.header__title {
+  font-size: 6.5rem;
+  font-weight: 600;
+}
+.header__text {
+  padding: 3rem;
+  margin-left: 10vw;
+}
+
+.header__description {
+  width: 40%;
+  color: rgb(190, 190, 190);
+}
+
+.header__circles {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  margin: 0 auto;
+  justify-content: space-between;
+  width: 70%;
+  margin-top: 5%;
+}
+.header__menu {
+  display: none;
+}
+.header__menu--small {
+  position: absolute;
+  top: 3rem;
+  right: 0;
+  width: 7rem;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  color: #000;
+  border-radius: 1rem;
+  align-items: center;
+}
+@media only screen and (max-width: 920px) {
+  .header__circles {
+    width: 80%;
+  }
+  .header__description {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .header__circles {
+    width: 90%;
+    padding: 2rem 1rem;
+  }
+
+  .header__description {
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .header__nav {
+    width: 95%;
+  }
+}
+@media only screen and (max-width: 460px) {
+  .header__title {
+    font-size: 6rem;
+  }
+  .header__circles {
+    width: 95%;
+  }
+  .header__search span {
+    display: none;
+  }
+  .header__help {
+    display: none;
+  }
+  .header__nav-right ul li:not(:last-child) {
+    margin-right: 1rem;
+  }
+  .header__menu {
+    display: inline-block;
+    cursor: pointer;
+  }
+  .header__nav {
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width: 460px) {
+  .header__menu--small {
+    display: none;
+  }
+}
