@@ -16,6 +16,7 @@
   font-size: 2.5rem;
   font-weight: 400;
   position: relative;
+  font-family: none;
 }
 .upcomingShows__heading::after {
   content: "";
@@ -70,6 +71,7 @@
   font-size: 1.6rem;
   color: #fff;
   margin-top: 0.5rem;
+  font-family: none;
 }
 
 .css-46bh2p-MuiCardContent-root:last-child {

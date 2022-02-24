@@ -1,12 +1,12 @@
 .header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1)),
-    url("https://preview.redd.it/zc3nnfklwz941.jpg?auto=webp&s=c0bcbce019bc5f774529821335c2b962330c3db5");
+    url("https://occ-0-1723-1722.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABc9OniU9HtoFnCc1UBhajEhTt6jf-nbpZDbt7xs6tytqBCNZHb04G0uDonqxEsZTzbQNbLf-xCKSLqXcmBR2wn91R95V.jpg?r=ff8");
   background-size: cover;
   background-repeat: no-repeat;
   height: 70vh;
   color: #fff;
   font-size: 1.3rem;
-  background-position: center;
+  background-position: top;
 }
 .header__nav {
   display: flex;
@@ -14,6 +14,7 @@
   width: 80%;
   margin: 0 auto;
   padding: 1rem;
+  padding-top: 2rem;
 }
 .header__logo {
   letter-spacing: 4px;
@@ -47,6 +48,7 @@
 .header__title {
   font-size: 6.5rem;
   font-weight: 600;
+  font-family: none;
 }
 .header__text {
   padding: 3rem;
